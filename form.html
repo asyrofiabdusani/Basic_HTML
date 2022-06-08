@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendafataran</title>
+</head>
+<body>
+    <h1>Form Pendafataran Calon Siswa</h1>
+    <p>Isi data berikut untuk memulai proses pendaftaran di SMA 1234</p>
+
+    <!-- form is used to create form -->
+    <form action="">
+
+        <!-- table is used in the form to make the form looks good -->
+        <table cellpadding="5">
+            <tr>
+
+                <!-- label is used to show the text in the input -->
+                <td><label for="nama">Nama lengkap</label></td>
+                <td><label for="">:</label></td>
+
+                <!-- input is used to create editbox, radio, checkbox, etc -->
+                <td colspan="4"><input type="text" id="nama"></td>
+            </tr>
+            <tr>
+                <td><label for="nama">Kelamin</label></td>
+                <td><label for="">:</label></td>
+                <td><input type="radio" id="pria" name="kelamin"></td>
+                <td><label for="pria">Laki - laki</label></td>
+                <td><input type="radio" id="wanita" name="kelamin"></td>
+                <td><label for="pria">Perempuan</label></td>
+            </tr>
+            <tr>
+                <td><label for="tl">Tempat lahir</label></td>
+                <td><label for="">:</label></td>
+                <td colspan="4"><input type="text" id="tl"></td>
+            </tr>
+            <tr>
+                <td><label for="tgl">Tanggal lahir</label></td>
+                <td><label for="">:</label></td>
+                <td colspan="4"><input type="date" id="tgl"></td>
+            </tr>
+            <tr>
+                <td><label for="tl">NEM</label></td>
+                <td><label for="">:</label></td>
+                <td colspan="4"><input type="text" id="tl"></td>
+            </tr>
+            <tr>
+
+                <!-- for select, it must has some options as the value of dropdown -->
+                <td><label for="warga">Minat Jurusan</label></td>
+                <td><label for="">:</label></td>
+                <td colspan="4"><select name="" id="warga">
+                    <option value="">Otomotif</option>
+                    <option value="">Elektronika</option>
+                    <option value="">Komputer</option>
+                    <option value="">Kimia</option>
+                    <option value="">Sipil</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+
+                <!-- button is used to create button -->
+                <td colspan="3"><button>Daftar</button></td>
+                <td colspan="3"><button>Batalkan</button></td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+</html>
